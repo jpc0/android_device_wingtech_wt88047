@@ -12,7 +12,6 @@ ro.camera.sensors=ov8865_q8v18a,ov2680_skuhf,ov2680_5987fhq
 
 # Display
 ro.sf.lcd_density=320
-debug.hwui.use_buffer_age=false
 
 # Factory Reset Protection
 ro.frp.pst=/dev/block/bootdevice/by-name/config
