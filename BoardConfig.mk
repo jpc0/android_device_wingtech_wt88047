@@ -78,6 +78,9 @@ BOARD_KERNEL_CMDLINE += sched_enable_hmp=1 phy-msm-usb.floated_charger_enable=1 
 BOARD_LIGHTS_VARIANT := aw2013
 TARGET_PROVIDES_LIBLIGHT := true
 
+# Manifest
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.full
 BOARD_NO_SECURE_DISCARD := true
